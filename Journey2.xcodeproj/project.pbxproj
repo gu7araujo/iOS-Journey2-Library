@@ -14,6 +14,20 @@
 		B775BD702C29DD3000F36A20 /* Journey2.h in Headers */ = {isa = PBXBuildFile; fileRef = B775BD642C29DD3000F36A20 /* Journey2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B775BD7A2C29DEAB00F36A20 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775BD792C29DEAB00F36A20 /* SecondViewController.swift */; };
 		B775BD7C2C29DEC200F36A20 /* Journey2Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B775BD7B2C29DEC200F36A20 /* Journey2Coordinator.swift */; };
+		B7A878422C83651D0077DF64 /* UserBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A878412C83651D0077DF64 /* UserBuilder.swift */; };
+		B7A878442C8368A00077DF64 /* StudentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A878432C8368A00077DF64 /* StudentLoginViewController.swift */; };
+		B7A878462C83699B0077DF64 /* TeacherLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A878452C83699B0077DF64 /* TeacherLoginViewController.swift */; };
+		B7A878482C8369D60077DF64 /* AuthViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A878472C8369D60077DF64 /* AuthViewControllerProtocol.swift */; };
+		B7A8784A2C836BA60077DF64 /* StudentAuthViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A878492C836BA60077DF64 /* StudentAuthViewFactory.swift */; };
+		B7A8784C2C836BDE0077DF64 /* AuthViewFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8784B2C836BDE0077DF64 /* AuthViewFactoryProtocol.swift */; };
+		B7A8784E2C836C7D0077DF64 /* TeacherAuthViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8784D2C836C7D0077DF64 /* TeacherAuthViewFactory.swift */; };
+		B7A878542C83708D0077DF64 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A878532C83708D0077DF64 /* SecondViewModel.swift */; };
+		B7A878562C8399680077DF64 /* LoginSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A878552C8399680077DF64 /* LoginSuccessViewController.swift */; };
+		B7A878582C8399F00077DF64 /* LoginSuccessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A878572C8399F00077DF64 /* LoginSuccessViewModel.swift */; };
+		B7A8785A2C839A8D0077DF64 /* TeacherLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A878592C839A8D0077DF64 /* TeacherLoginViewModel.swift */; };
+		B7A8785C2C839B7A0077DF64 /* AuthViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8785B2C839B7A0077DF64 /* AuthViewModelProtocol.swift */; };
+		B7A8785E2C839BF00077DF64 /* AuthViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8785D2C839BF00077DF64 /* AuthViewModelDelegate.swift */; };
+		B7A878602C839D880077DF64 /* StudentLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A8785F2C839D880077DF64 /* StudentLoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +51,20 @@
 		B775BD6E2C29DD3000F36A20 /* Journey2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey2Tests.swift; sourceTree = "<group>"; };
 		B775BD792C29DEAB00F36A20 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B775BD7B2C29DEC200F36A20 /* Journey2Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey2Coordinator.swift; sourceTree = "<group>"; };
+		B7A878412C83651D0077DF64 /* UserBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBuilder.swift; sourceTree = "<group>"; };
+		B7A878432C8368A00077DF64 /* StudentLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginViewController.swift; sourceTree = "<group>"; };
+		B7A878452C83699B0077DF64 /* TeacherLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLoginViewController.swift; sourceTree = "<group>"; };
+		B7A878472C8369D60077DF64 /* AuthViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewControllerProtocol.swift; sourceTree = "<group>"; };
+		B7A878492C836BA60077DF64 /* StudentAuthViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAuthViewFactory.swift; sourceTree = "<group>"; };
+		B7A8784B2C836BDE0077DF64 /* AuthViewFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewFactoryProtocol.swift; sourceTree = "<group>"; };
+		B7A8784D2C836C7D0077DF64 /* TeacherAuthViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherAuthViewFactory.swift; sourceTree = "<group>"; };
+		B7A878532C83708D0077DF64 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		B7A878552C8399680077DF64 /* LoginSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessViewController.swift; sourceTree = "<group>"; };
+		B7A878572C8399F00077DF64 /* LoginSuccessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessViewModel.swift; sourceTree = "<group>"; };
+		B7A878592C839A8D0077DF64 /* TeacherLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLoginViewModel.swift; sourceTree = "<group>"; };
+		B7A8785B2C839B7A0077DF64 /* AuthViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModelProtocol.swift; sourceTree = "<group>"; };
+		B7A8785D2C839BF00077DF64 /* AuthViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModelDelegate.swift; sourceTree = "<group>"; };
+		B7A8785F2C839D880077DF64 /* StudentLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginViewModel.swift; sourceTree = "<group>"; };
 		E5ABD9472743CE859688273D /* Pods-Journey2-Journey2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journey2-Journey2Tests.release.xcconfig"; path = "Target Support Files/Pods-Journey2-Journey2Tests/Pods-Journey2-Journey2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F7F12384DF64165525A43BF0 /* Pods_Journey2_Journey2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Journey2_Journey2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,8 +123,12 @@
 			isa = PBXGroup;
 			children = (
 				B775BD642C29DD3000F36A20 /* Journey2.h */,
-				B775BD792C29DEAB00F36A20 /* SecondViewController.swift */,
 				B775BD7B2C29DEC200F36A20 /* Journey2Coordinator.swift */,
+				B775BD792C29DEAB00F36A20 /* SecondViewController.swift */,
+				B7A878532C83708D0077DF64 /* SecondViewModel.swift */,
+				B7A878522C836D2A0077DF64 /* Models */,
+				B7A8784F2C836CCC0077DF64 /* AuthViewFactory */,
+				B7A878612C839F920077DF64 /* LoginSuccess */,
 			);
 			path = Journey2;
 			sourceTree = "<group>";
@@ -107,6 +139,56 @@
 				B775BD6E2C29DD3000F36A20 /* Journey2Tests.swift */,
 			);
 			path = Journey2Tests;
+			sourceTree = "<group>";
+		};
+		B7A8784F2C836CCC0077DF64 /* AuthViewFactory */ = {
+			isa = PBXGroup;
+			children = (
+				B7A878472C8369D60077DF64 /* AuthViewControllerProtocol.swift */,
+				B7A8785B2C839B7A0077DF64 /* AuthViewModelProtocol.swift */,
+				B7A8785D2C839BF00077DF64 /* AuthViewModelDelegate.swift */,
+				B7A8784B2C836BDE0077DF64 /* AuthViewFactoryProtocol.swift */,
+				B7A878512C836CFF0077DF64 /* Teacher */,
+				B7A878502C836CF20077DF64 /* Student */,
+			);
+			path = AuthViewFactory;
+			sourceTree = "<group>";
+		};
+		B7A878502C836CF20077DF64 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				B7A878492C836BA60077DF64 /* StudentAuthViewFactory.swift */,
+				B7A878432C8368A00077DF64 /* StudentLoginViewController.swift */,
+				B7A8785F2C839D880077DF64 /* StudentLoginViewModel.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		B7A878512C836CFF0077DF64 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				B7A8784D2C836C7D0077DF64 /* TeacherAuthViewFactory.swift */,
+				B7A878452C83699B0077DF64 /* TeacherLoginViewController.swift */,
+				B7A878592C839A8D0077DF64 /* TeacherLoginViewModel.swift */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		B7A878522C836D2A0077DF64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7A878412C83651D0077DF64 /* UserBuilder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7A878612C839F920077DF64 /* LoginSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				B7A878552C8399680077DF64 /* LoginSuccessViewController.swift */,
+				B7A878572C8399F00077DF64 /* LoginSuccessViewModel.swift */,
+			);
+			path = LoginSuccess;
 			sourceTree = "<group>";
 		};
 		C116203301FAF1C55F994052 /* Pods */ = {
@@ -297,8 +379,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A8784A2C836BA60077DF64 /* StudentAuthViewFactory.swift in Sources */,
+				B7A8785E2C839BF00077DF64 /* AuthViewModelDelegate.swift in Sources */,
+				B7A878602C839D880077DF64 /* StudentLoginViewModel.swift in Sources */,
+				B7A8784E2C836C7D0077DF64 /* TeacherAuthViewFactory.swift in Sources */,
+				B7A8785C2C839B7A0077DF64 /* AuthViewModelProtocol.swift in Sources */,
 				B775BD7C2C29DEC200F36A20 /* Journey2Coordinator.swift in Sources */,
+				B7A878562C8399680077DF64 /* LoginSuccessViewController.swift in Sources */,
+				B7A878582C8399F00077DF64 /* LoginSuccessViewModel.swift in Sources */,
+				B7A878462C83699B0077DF64 /* TeacherLoginViewController.swift in Sources */,
+				B7A878482C8369D60077DF64 /* AuthViewControllerProtocol.swift in Sources */,
+				B7A878442C8368A00077DF64 /* StudentLoginViewController.swift in Sources */,
 				B775BD7A2C29DEAB00F36A20 /* SecondViewController.swift in Sources */,
+				B7A8785A2C839A8D0077DF64 /* TeacherLoginViewModel.swift in Sources */,
+				B7A878422C83651D0077DF64 /* UserBuilder.swift in Sources */,
+				B7A878542C83708D0077DF64 /* SecondViewModel.swift in Sources */,
+				B7A8784C2C836BDE0077DF64 /* AuthViewFactoryProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

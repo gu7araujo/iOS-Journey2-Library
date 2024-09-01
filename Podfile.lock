@@ -1,16 +1,16 @@
 PODS:
-  - Core (0.0.2)
+  - Core (1.0.0)
 
 DEPENDENCIES:
-  - Core (= 0.0.2)
+  - Core (= 1.0.0)
 
 SPEC REPOS:
   "git@github.com:gu7araujo/iOS-Libraries-Specs.git":
     - Core
 
 SPEC CHECKSUMS:
-  Core: 0f60d4de2d516f530272a1200710435401b98e8f
+  Core: b62c8a791505023cef1f4b380f8a983429f93824
 
-PODFILE CHECKSUM: bf5dfa246b4bde4c1a70c552ac1f511bd89ba560
+PODFILE CHECKSUM: 9a952921de2a25ba91b0bbf18110807794bce6dc
 
 COCOAPODS: 1.15.2
